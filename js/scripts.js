@@ -3,9 +3,23 @@ $(function(){
   var alphaSplit = []
   var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   var alphaSplit = alphabet.split("");
-  console.log(alphaSplit);
 
-});
+  $("form#dialect").submit(function(event) {
+    event.preventDefault();
+    if (inputText.length === 1) {
+      return true
+    }  else {
+      return false }
+      $("#result").text("result");
+
+    });
+
+
+  });
+
+
+
+
 
 
 
