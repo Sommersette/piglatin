@@ -1,0 +1,34 @@
+Pig Latin
+
+The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+Example Input: 3
+Example Output: 3
+
+
+The program adds "ay" to single-letter words beginning with a vowel.
+Example Input: i
+Example Output: iay
+
+The program adds "ay" to multi-letter words beginning with a vowel. <check for refactoring>
+Example Input: input
+Example Output: inputay
+
+The program detects consonants up to first vowel (===) and moves all consonants to end
+example input: start
+example output: artst
+
+If the first consonants include "qu" along with the "q", move the "u" with the "q"
+example input: Queen
+example Output: eenQu
+
+The program adds "ay" to the end of words starting with consonants. // check for refactoring
+example input: start
+example output: artstay
+
+programs if the first letter of the word is y the program treats it as a consonant and moves to the end of the word.
+input: yellow
+output: elloy
+
+program then adds ay to the word.
+input: yellow
+output: elloyay
